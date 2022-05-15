@@ -13,3 +13,16 @@
 最新版的视频介绍点击: https://zhuanlan.zhihu.com/p/467160411
 
 感兴趣的小伙伴可以关注我的微信公众号：元宵大师带你用Python量化交易
+
+注意：
+baostock 和 wxpython搭配不好会出现“日期格式不正确”报错，建议的版本搭配为：
+Python3.7+wxpython4.0.4+baostock 0.8.8  
+
+如果使用Python3.8，可参考如下配置【简单粗暴把baostock库的\site-packages\baostock\security\history.py文件的175至187行注释掉，重启Pycharm即可】：
+Python3.8+wxpython4.1.1+baostock 0.8.8
+
+2.3之后的版本已经增加第三方库tabulate，需要pip安装一下。Windows环境pip安装winreg库
+
+在tushare官网注册账号获取token码（填写个人信息后有120积分）， 拷贝后填写到ConfigFiles/token.txt 文件中。从2.2.1版本开始，也可以不提供，随便填写字符即可。
+
+Windows用户在启动后先点击【配置】页面，配置当前系统为Windows，点击保存。顶部的状态条可以返回到主菜单，然后再点击【量化】界面。
