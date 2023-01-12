@@ -1,0 +1,34 @@
+{
+    "普洛药业": {
+        "code": "000739.SZ",
+        "direct": "买",
+        "price": 12.0,
+        "amount": 122,
+        "trace_strategy": "自定义策略1",
+        "auto_trade": false
+    },
+    "京粮控股": {
+        "code": "000505.SZ",
+        "direct": "买",
+        "price": 9.33,
+        "amount": 1000,
+        "trace_strategy": "自定义策略1",
+        "auto_trade": false
+    },
+    "天邦股份": {
+        "code": "002124.SZ",
+        "direct": "买",
+        "price": 7.04,
+        "amount": 200,
+        "trace_strategy": "自定义策略1",
+        "auto_trade": false
+    },
+    "许继电气": {
+        "code": "000400.SZ",
+        "direct": "买",
+        "price": 19.33,
+        "amount": 200,
+        "trace_strategy": "自定义策略1",
+        "auto_trade": false
+    }
+}
